@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=New+Amsterdam&display=swap');
+
+body {
+    background-image: url("./images/pexels-markusspiske-2004161.jpg");
+    background-size: cover;
+}
+
+div.container {
+    border: 10px solid white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./images/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div.header {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-heading {
+    font-size: 4rem;
+    letter-spacing: 5%;
+    letter-spacing: 10px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: solid;
+    text-transform: uppercase;
+    flex-basis: 20%;
+    color: #FABC3F;
+}
+
+.sub-heading {
+    font-size: xx-large;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.middle-heading {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+
+div.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.certificate-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.order {
+    justify-self: start;
+    align-self: self-start;
+    margin-left: 5%;
+    font-size: large;
+    font-family: cursive;
+}
+
+.certificate-content-presentation {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5%;
+}
+
+.signature-pen {
+    border: none;
+    border-bottom: 2px solid;
+    width: 80%;
+}
+
+div.signature {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    margin: 2%;
+}
+
+div.signature-name {
+    font-size: x-large;
+    font-family: "Karla", sans-serif;
+}
+
+div.signature>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div>img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width: 469px) and (max-width: 769px) {
+    .big-heading {
+        font-size: 2.5rem;
+        color: #FABC3F;
+    }
+
+    div.signature-name {
+        font-size: x-large;
+        font-family: "Karla", sans-serif;
+    }
+
+}
+
+@media (min-width: 374px) and (max-width: 469px) {
+    .big-heading {
+        font-size: 1.7rem;
+        color: #FABC3F;
+        font-weight: 900;
+        font-style: normal;
+        text-decoration: solid;
+    }
+
+    .sub-heading {
+        font-size: x-large;
+    }
+
+    .middle-heading {
+        font-size: larger;
+    }
+
+    div.name {
+        font-size: x-large;
+    }
+
+    .certificate-content {
+        margin: 1%;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: oblique;
+        font-size: 1.2rem;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    div>img {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    div.signature {
+        margin-bottom: 5%;
+    }
+
+    div.signature-name {
+        font-size: x-large;
+        font-family: "Karla", sans-serif;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 373px) {
+    div.container {
+        width: 95%;
+    }
+
+    .big-heading {
+        font-size: 1.7rem;
+        color: #FABC3F;
+        font-weight: 900;
+        font-style: normal;
+        text-decoration: solid;
+    }
+
+    .sub-heading {
+        font-size: x-large;
+    }
+
+    .middle-heading {
+        font-size: larger;
+    }
+
+    div.name {
+        font-size: x-large;
+    }
+
+    .certificate-content {
+        margin: 1%;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: oblique;
+        font-size: 1.2rem;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    div>img {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+        margin-bottom: 2%;
+    }
+
+    div.signature-name {
+        font-size: large;
+        font-family: "Karla", sans-serif;
+    }
+
+}
+
+@media (max-width: 319px) {
+    div.container {
+        width: 95%;
+    }
+
+    .big-heading {
+        font-size: 1rem;
+        color: #FABC3F;
+        font-weight: 900;
+        font-style: normal;
+        text-decoration: solid;
+    }
+
+    .sub-heading {
+        font-size: large;
+    }
+
+    .middle-heading {
+        font-size: larger;
+    }
+
+    div.name {
+        font-size: large;
+    }
+
+    .certificate-content {
+        margin: 1%;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: oblique;
+        font-size: 1rem;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    div>img {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+        margin-bottom: 2%;
+    }
+
+    div.signature-name {
+        font-size: large;
+        font-family: "Karla", sans-serif;
+    }
+
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: larger;
+    color: black;
+    font-family: cursive;
+    background-color: white;
+}
+
+div.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+input[type="button"]:hover {
+    background-color: black;
+    color: white;
+}
