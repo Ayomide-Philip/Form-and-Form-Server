@@ -1,0 +1,228 @@
+body {
+    background-image: url("/images/pexels-markusspiske-2004161.jpg");
+    background-size: cover;
+}
+
+div.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-content {
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.small-text {
+    font-size: small;
+}
+
+.form-header>div {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.form-header {
+    display: flex;
+    justify-content: end;
+}
+
+div.form-container {
+    width: 80%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 1rem;
+
+}
+
+div.input {
+    margin-bottom: 3%;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    border: none;
+    border-bottom: 2px solid;
+}
+
+div.gender-radio {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+div.gender-radio>h2 {
+    font-size: larger;
+}
+
+div.radio {
+    margin-top: 2px;
+}
+
+.form-container {
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+div.cource-list-container>div {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-family: cursive;
+}
+
+
+div.cource-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: larger;
+    color: black;
+    font-family: cursive;
+    background-color: white;
+}
+
+div.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    cursor: pointer;
+}
+
+div.cource-list-container>div>div {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+}
+
+.web-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.logo-image {
+    width: 50px;
+    height: 50px;
+}
+
+div.logo-image>img {
+    width: 50px;
+    height: 50px;
+}
+
+div.header {
+    background-color: rgba(22, 34, 57, 0.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 5px;
+    color: white;
+}
+
+span {
+    color: #00cc00;
+}
+
+@media (max-width: 769px) {
+    div.cource-list-container {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5%;
+    }
+
+    div.cource-list-container>div {
+        font-size: small;
+    }
+
+    .form-header>div {
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+        border: 2px solid;
+    }
+
+    div.gender-radio {
+        display: flex;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+
+    div.gender-radio>h2 {
+        font-size: medium;
+    }
+
+    div.body-container {
+        width: 90%;
+    }
+}
+
+p.error {
+    margin-top: 1%;
+    font-size: large;
+    color: red;
+    font-weight: 900;
+    font-family: cursive;
+    display: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    display: none;
+    /* Hides the spinner buttons */
+}

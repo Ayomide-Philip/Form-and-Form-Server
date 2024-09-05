@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="shortcut icon" href="/images/new_logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="web-logo">
+            <div class="logo-image">
+                <img src="/images/new_logo.png" alt="Web79">
+            </div>
+            <div class="logo-content">
+                <div><span>WEB</span>79</div>
+                <div class="small-text">ICT Solutions</div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="form-container">
+            <div class="body-container">
+                <h1>Registration Form</h1>
+                <form action="/post" method="post">
+                    <div class="input">
+                        <input type="text" name="name" id="name" placeholder="Input your name (Surname First)">
+                        <p id="name-error" class="error"> You inputed didnt input any name. </p>
+                    </div>
+
+                    <div class="gender-radio">
+                        <h2>Gender:</h2>
+                        <div class="radio">
+                            <input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" value="Female"> <label
+                                for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="address" id="address" placeholder="Input your Home Address">
+                        <p class="error" id="error-address">You didnt input your Home Address</p>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="occupation" id="occupation" placeholder="Input your Occupation">
+                        <p class="error" id="cccupation-error">You Didn't input your Occupation </p>
+                    </div>
+                    <div class="input">
+                        <input type="number" name="telephone" id="telephone"
+                            placeholder="Please input your telephone Number">
+                        <p class="error" id="telephone-error">You didnt Input your Telephone Number</p>
+                    </div>
+                    <div class="input">
+                        <input type="email" name="emailAddress" id="emailAddress"
+                            placeholder="Please input your email address (e.g google@gmail.com)">
+                        <p class="error" id="email-error">You didnt Input a correct Address Format</p>
+                    </div>
+
+                    <div class="cource-list">
+                        <h1>Courses</h1>
+                        <div class="cource-list-container">
+                            <div>
+                                <div> <label for="HTML">HTML</label><input type="checkbox" name="cource" value="HTML">
+                                </div>
+                                <div><label for="CSS">CSS</label> <input type="checkbox" name="cource" value="CSS">
+                                </div>
+                                <div>
+                                    <label for="appDevelopment">App Development</label> <input type="checkbox"
+                                        name="cource" value="App Development">
+                                </div>
+                                <div> <label for="microsoftExcel">Microsoft Excel</label> <input type="checkbox"
+                                        name="cource" value="Microsoft Excel">
+                                </div>
+                                <div><label for="wordpress">Wordpress</label> <input type="checkbox" name="cource"
+                                        value="Wordpress">
+                                </div>
+                                <div>
+                                    <label for="uiUx">UI/UX</label> <input type="checkbox" name="cource" value="UI/UX">
+                                </div>
+                            </div>
+                            <div>
+                                <div><label for="computerBasics">Computer Basics</label> <input type="checkbox"
+                                        name="cource" value="Computer Basics">
+                                </div>
+                                <div> <label for="Javascript">Javascript</label> <input type="checkbox" name="cource"
+                                        value="Javascript">
+                                </div>
+                                <div>
+                                    <label for="appDevelopment">Microsoft Word </label> <input type="checkbox"
+                                        name="cource" value="Microsoft Word">
+                                </div>
+                                <div>
+                                    <label for="microsoftExcel">Microsoft Powerpoint</label> <input type="checkbox"
+                                        name="cource" value="Microsoft Powerpoint">
+                                </div>
+                                <div><label for="wordpress">Graphics Design</label> <input type="checkbox" name="cource"
+                                        value="Graphics Design">
+                                </div>
+                                <div>
+                                    <label for="uiUx">Python</label> <input type="checkbox" name="cource"
+                                        value="Python">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" id="btn" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
