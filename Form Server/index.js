@@ -14,7 +14,6 @@ app.get("/", (req, res) => {
 
 app.post("/post", (req, res) => {
   console.log(req.body);
-  console.log(typeof `${req.body.cource}`);
 
   res.render("index.ejs", { request: req.body });
 });
