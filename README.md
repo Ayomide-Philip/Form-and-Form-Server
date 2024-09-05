@@ -6,4 +6,9 @@ This project demonstrates how to use forms and integrate them with a server to h
 
 ## How to work with the server
 
-To work with the server you have to first download this on your local machine
+To work with the server you have to first download this on your local machine, run 
+
+```
+git clone https://github.com/Ayomide-Philip/Form-and-Form-Server.git
+
+```
