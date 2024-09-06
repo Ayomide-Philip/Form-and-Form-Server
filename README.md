@@ -16,3 +16,11 @@ You need to have Node on Your system, and to use the server, you need to run
 ```
 cd "Form Server"
 ```
+When you run that command it would change the directory to the form server directory.
+
+## Form Server file structure
+
+```
+              |
+              |---- Public ---
+```
