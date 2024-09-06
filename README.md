@@ -22,5 +22,7 @@ When you run that command it would change the directory to the form server direc
 
 ```
               |
-              |---- Public ---
+              |---- Public --- Images
+              |        |------ Stylesheet
+              |        |------ Script
 ```
