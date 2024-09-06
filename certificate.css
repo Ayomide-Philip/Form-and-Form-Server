@@ -154,7 +154,7 @@ div>img {
         font-size: x-large;
         font-family: "Karla", sans-serif;
     }
-    div.name{
+    div.name, .order{
          font-family: "Karla", sans-serif;
     }
 
@@ -182,6 +182,9 @@ div>img {
            font-family: "Karla", sans-serif;
     }
 
+    .order{
+        font-family: "Karla", sans-serif;
+    }
     .certificate-content {
         margin: 1%;
         font-family: "Karla", sans-serif;
@@ -231,6 +234,10 @@ div>img {
     .middle-heading {
         font-size: larger;
     }
+    .order{
+        font-family: "Karla", sans-serif;
+    }
+    
 
     div.name {
         font-size: x-large;
