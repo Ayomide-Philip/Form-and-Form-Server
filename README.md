@@ -30,3 +30,12 @@ When you run that command it would change the directory to the form server direc
               |---- Views
               |---- Index.js
 ```
+
+### How to Install the required Node Module
+Due to the use of NodeJS, i used some node package to run the server like express, body-paraser, ejs and e.t.c
+
+To install all the required module you do 
+
+```
+npm i
+```
