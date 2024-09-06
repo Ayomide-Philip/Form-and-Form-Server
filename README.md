@@ -39,3 +39,4 @@ To install all the required module you do
 ```
 npm i
 ```
+By running the above command, it looks inside the package.json in the Form Server, and looks for all the package need to download and download it 
