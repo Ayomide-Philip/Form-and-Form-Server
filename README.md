@@ -26,4 +26,7 @@ When you run that command it would change the directory to the form server direc
               |        |------ Images
               |        |------ Stylesheet
               |        |------ Script
+              |
+              |---- Views
+              |---- Index.js
 ```
