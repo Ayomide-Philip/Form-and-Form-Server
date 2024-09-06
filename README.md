@@ -11,3 +11,8 @@ git clone https://github.com/Ayomide-Philip/Form-and-Form-Server.git
 ```
 
 ## How to use the Server
+You need to have Node on Your system, and to use the server, you need to run
+
+```
+cd "Form Server"
+```
