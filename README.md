@@ -74,4 +74,4 @@ Here are some basic Rules i set for my validation :
 1. In the Input Name, i set two rules which are:
     - If you didnt input anything into the input type, your form shouldn't be submitted
    - If you only input your first name or surname it would also detect cause a comma is expected to differientiate between the Surname and Firstname
-   
+2. In the Input Address, i set two rules which are:
