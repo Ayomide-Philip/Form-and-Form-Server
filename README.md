@@ -62,3 +62,9 @@ To install nodemon use
 ```
 npm i nodemon
 ```
+
+After you start the server head to:
+
+```
+http://localhost:3000/
+```
