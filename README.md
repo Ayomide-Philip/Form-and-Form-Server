@@ -32,7 +32,13 @@ When you run that command it would change the directory to the form server direc
 ```
 
 ### How to Install the required Node Module
-Due to the use of NodeJS, i used some node package to run the server like express, body-paraser, ejs and e.t.c
+Due to the use of NodeJS, i used some node package to run the server like:
+
+```
+    body-parser: V1.20.2
+    ejs: V3.1.10,
+    express: V4.19.2
+```
 
 To install all the required module you do 
 
