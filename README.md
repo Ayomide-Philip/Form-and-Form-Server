@@ -68,4 +68,10 @@ After you start the server head to:
 ```
 http://localhost:3000/
 ```
-you should see a page that looks like this static page i made, [Form Server Home Page](https://ayomide-philip.github.io/Form-and-Form-Server/). That is how the home page looks and Javascript was used for the form validation [The Script Used](./script.js).
+you should see a page that looks like this static page i made, [Form Server Home Page](https://ayomide-philip.github.io/Form-and-Form-Server/). That is how the home page looks and Javascript was used for the form validation [The Script Used](./script.js). Check the Script if you don understand how the validation is working,
+
+Here are some basic Rules i set for my validation :
+1. In the Input Name, i set two rules which are:
+    - If you didnt input anything into the input type, your form shouldn't be submitted
+   - If you only input your first name or surname it would also detect cause a comma is expected to differientiate between the Surname and Firstname
+   
