@@ -57,7 +57,7 @@ or
 ```
 nodemon index.js
 ```
-You can only run the second command if you have nodemon installed already (==Nodemon is used for restarting a server automatically when it detect a change in the file it help us to prevent us starting and restarting the server all time using node==).
+You can only run the second command if you have nodemon installed already **(Nodemon is used for restarting a server automatically when it detect a change in the file it help us to prevent us starting and restarting the server all time using node)**.
 To install nodemon use 
 ```
 npm i nodemon
