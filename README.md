@@ -53,4 +53,7 @@ After installing all the need  package what you need to do is to start the serve
 ```
 node index.js
 ```
-
+or 
+```
+nodemon index.js
+```
