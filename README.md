@@ -68,5 +68,5 @@ After you start the server head to:
 ```
 http://localhost:3000/
 ```
-you should see a page that looks like this static page i made,
-[Form Server Home Page](https://ayomide-philip.github.io/Form-and-Form-Server/)
+you should see a page that looks like this static page i made, [Form Server Home Page](https://ayomide-philip.github.io/Form-and-Form-Server/). That is how the home page looks and Javascript was used for the form validation
+
