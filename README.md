@@ -48,5 +48,9 @@ npm i
 By running the above command, it looks inside the package.json in the Form Server, and looks for all the package needed.
 
 ## Starting the Server
-After installing all the need  package what you need to do is to start the server
+After installing all the need  package what you need to do is to start the server, In your terminal go to the directory of the "Form Server", and run 
+
+```
+node index.js
+```
 
